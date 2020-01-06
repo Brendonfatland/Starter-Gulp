@@ -1,0 +1,82 @@
+$centerItem: center;
+$fullScreenWidth: 100%;
+$displayAsFlex: flex;
+$HRNumbers: "219, 219, 219, 0";
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background: grey;
+  box-sizing: border-box;
+  background: $primaryColorWhite;
+}
+
+.MainHeader,
+.contact-form {
+  @include open-sans-condensed($fs: 1.5rem);
+  text-align: $centerItem;
+}
+
+.menu {
+  width: $fullScreenWidth;
+  background: $primaryColorDarkestGrey;
+  display: $displayAsFlex;
+  justify-content: space-between;
+  .logo {
+    position: relative;
+    margin: 10px 0px 8px 30px;
+  }
+  .hamburger {
+    position: relative;
+    margin: 10px 30px 8px 0px;
+  }
+}
+
+//Tried to do a mixin, but because these are all a little different with left and right it didnt work.
+//Instead just made variable with 219, 219, 219, 0
+.bottomHR {
+  border: none !important;
+  height: 2px !important;
+  width: 80% !important;
+  margin: 2em auto !important;
+  background: #dbdbdb !important;
+  background: -moz-linear-gradient(
+    left,
+    rgba(219, 219, 219, 0) 0%,
+    #dbdbdb 50%,
+    rgba(219, 219, 219, 0) 100%
+  ) !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, rgba(219, 219, 219, 0)),
+    color-stop(50%, #dbdbdb),
+    color-stop(100%, rgba(219, 219, 219, 0))
+  ) !important;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(219, 219, 219, 0) 0%,
+    #dbdbdb 50%,
+    rgba(219, 219, 219, 0) 100%
+  ) !important;
+  background: -o-linear-gradient(
+    left,
+    rgba(219, 219, 219, 0) 0%,
+    #dbdbdb 50%,
+    rgba(219, 219, 219, 0) 100%
+  ) !important;
+  background: -ms-linear-gradient(
+    left,
+    rgba(219, 219, 219, 0) 0%,
+    #dbdbdb 50%,
+    rgba(219, 219, 219, 0) 100%
+  ) !important;
+  background: linear-gradient(
+    to right,
+    rgba(219, 219, 219, 0) 0%,
+    #dbdbdb 50%,
+    rgba(219, 219, 219, 0) 100%
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(219, 219, 219, 0)',endColorstr='rgba(219, 219, 219, 0)',GradientType=1) !important;
+}

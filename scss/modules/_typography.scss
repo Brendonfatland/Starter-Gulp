@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+$ff-os: "Open Sans Condensed", sans-serif;
+
+$ff-heading: asdf;
+$ff-body: asdf;
+
+$fw-n: 400;
+$fw-b: 900;
+
+@mixin open-sans-condensed(
+  $fs,
+  $ls: 0.3em,
+  $color: $primaryColorDarkGrey,
+  $tt: uppercase,
+  $lh: 1,
+  $ff: $ff-os
+) {
+  font-size: $fs;
+  letter-spacing: $ls;
+  color: $color;
+  text-transform: $tt;
+  line-height: $lh;
+  font-family: $ff;
+}

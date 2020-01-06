@@ -1,0 +1,293 @@
+@import "modules/all";
+@import "vendor/normalize";
+@import "partials/all";
+
+* {
+  box-sizing: border-box;
+}
+
+.classthingy {
+  width: percentage(3/4);
+}
+
+.state {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bottomContainer {
+  padding-bottom: 30px !important;
+}
+
+.StyleMeLeftDiv {
+  padding-right: unset !important;
+}
+.styleMeRightDiv {
+  color: black !important;
+}
+.modal-open {
+  overflow: unset !important;
+}
+.EditPositionOfTheImage {
+  left: 26% !important;
+}
+.OrangeClearBox {
+  width: 253px;
+  border: solid 3px #fe5000;
+  position: relative;
+  margin: 0 auto;
+  right: 15px;
+  height: 160px;
+  margin-bottom: -160px;
+  bottom: 10px;
+}
+
+.pElementToStyleInHeader {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #fe5000;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.SpanClass6 {
+  stroke: #fe5000 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+
+.SpanClass3 {
+  stroke: #086b99 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+
+.SpanClass2 {
+  stroke: Green !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+
+.SpanClass5 {
+  stroke: #942471 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+
+.SpanClass4 {
+  stroke: #b8000f !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+
+#GreenDistrict {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #809f73;
+  font-weight: 700;
+  font-size: 3em;
+}
+#PurpleDistrict {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #925a87;
+  font-weight: 700;
+  font-size: 3em;
+}
+#RedDistrict {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #b64040;
+  font-weight: 700;
+  font-size: 3em;
+}
+#OrangeDistrict {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #fe5000;
+  font-weight: 700;
+  font-size: 3em;
+}
+#BlueDistrict {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #537ea8;
+  font-weight: 700;
+  font-size: 3em;
+}
+.StyleTollFreeNumber {
+  color: black;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+.StlyeFireFlySalesTeam {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #fe5000;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.MoveMeFloatLeft {
+  text-align: left !important;
+  color: black !important;
+  font-size: 0.9em !important;
+  padding-left: 20px !important;
+  width: 250px !important;
+  background: #e6e7e8 !important;
+  margin: 0 auto !important;
+  padding: 12px 0px 11px 15px !important;
+  z-index: 300 !important;
+  position: relative !important;
+  line-height: 1.68 !important;
+}
+#us-map {
+  display: block !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+path:hover,
+circle:hover {
+  stroke: #002868 !important;
+  stroke-width: 2px !important;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer !important;
+}
+
+#info-box {
+  position: absolute !important;
+  top: 8% !important;
+  left: 62% !important;
+  z-index: 9999999999 !important;
+  background-color: #fff !important;
+  border: 2px solid #bf0a30 !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+  font-family: arial !important;
+}
+
+.hidenOnLoad {
+  color: white !important;
+}
+.fa-plus-circle {
+  color: white !important;
+  float: right !important;
+  padding-right: 20px !important;
+  position: relative !important;
+  bottom: 57px !important;
+  right: 10px !important;
+  font-size: 30px !important;
+}
+.modal-backdrop {
+  z-index: 0 !important;
+  background: unset !important;
+}
+.modal {
+  z-index: 999999 !important;
+}
+.OrangeBox {
+  background: white;
+  height: 212px;
+}
+
+.styleCol {
+  padding-left: 0px;
+  padding-right: 0px;
+  border: solid 2px lightgrey;
+}
+.GreenFontToStyle {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #809f73;
+  font-weight: 700;
+  font-size: 2em;
+  background: white;
+  transition: transform 0.2s;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.GreenFontToStyle:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  z-index: 300;
+}
+.OrangeFontToStyle {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #ff9545;
+  font-weight: 700;
+  font-size: 2em;
+  background: white;
+  transition: transform 0.2s;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.OrangeFontToStyle:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  z-index: 300;
+}
+
+.PurpleFontToStyle {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #925a87;
+  font-weight: 700;
+  font-size: 2em;
+  background: white;
+  transition: transform 0.2s;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.PurpleFontToStyle:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  z-index: 300;
+}
+.RedFontToStyle {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #b64040;
+  font-weight: 700;
+  font-size: 2em;
+  background: white;
+  transition: transform 0.2s;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.RedFontToStyle:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  z-index: 300;
+}
+.BlueFontToStyle {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #537ea8;
+  font-weight: 700;
+  font-size: 2em;
+  background: white;
+  transition: transform 0.2s;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.BlueFontToStyle:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  z-index: 300;
+}
+hr {
+  display: block !important;
+  height: 1px !important;
+  border: 0 !important;
+  border-top: 1px solid #ccc !important;
+  margin: 1em 0 !important;
+  padding: 0 !important;
+}
+
+.rowToStyllleee {
+  margin-top: 21px;
+}
